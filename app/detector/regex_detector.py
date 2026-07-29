@@ -42,12 +42,3 @@ def redact_text(text: str) -> str:
 
     return text
 
-if __name__ == "__main__":
-    sample = """
-    Patient: Rahul Sharma
-    Phone: 9876543210
-    Email: rahul@gmail.com
-    Date: 29/07/2026
-    """
-
-    print(redact_text(sample))
